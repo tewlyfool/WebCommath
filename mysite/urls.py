@@ -21,6 +21,11 @@ from app1 import views
 
 
 urlpatterns = [
-    path('admin/', admin.site.urls),path('',views.index)
+    path('admin/', admin.site.urls),
+    path('',views.index),
+    path('caldiff/',views.caldiff),
+    path('calin/',views.calin),
+    path('froot1/',views.froot1),
+    path('froot2/',views.froot2)
 ]
 # + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
